@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fa {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 56%;
+}
+
+.input-field {
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.input-field:hover {
+    border-color: #3b82f6;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+.input-field:focus {
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+
+.bg-blue-500 {
+    background-color: #3b82f6;
+}
+
+.bg-gray-300 {
+    background-color: #d1d5db;
+}
+
+.bg-green-500 {
+    background-color: #10b981;
+}
